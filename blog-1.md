@@ -12,7 +12,7 @@ A **union type** allows a variable to hold values of multiple types. You can def
 type Type = Type1 | Type2;
 ```
 
-### Example 1: Function Argument with Multiple Types
+### Example : Function Argument with Multiple Types
 
 Here’s a simple example where a function accepts either a string or a number as an argument:
 
@@ -35,7 +35,7 @@ An **intersection type** combines multiple types into one. The `&` symbol is use
 type Type = Type1 & Type2;
 ```
 
-### Example 1: Combining Multiple Interfaces
+### Example : Combining Multiple Interfaces
 
 Let's say you have two interfaces, `Person` and `Contact`, and you want to create a new type that has all properties from both interfaces. You can use an intersection type to combine them.
 
